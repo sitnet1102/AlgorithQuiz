@@ -9,6 +9,7 @@ int main(){
     vector<vector<int>> v;
     vector<int> v2;
     
+    scanf("%d",)
 
     return 0;
 }
