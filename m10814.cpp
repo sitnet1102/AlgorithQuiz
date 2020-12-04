@@ -9,8 +9,15 @@ using namespace std;
 struct Person{
     int num;
     int age;
-    char name[100];
+    string name;
 }typedef p;
+
+bool compare(p a, p b){
+    if(a.age == b.age){
+        return a.num < b.num;
+    }
+    return a.age < b.age;
+}
 
 int main(){
     int N;
@@ -26,13 +33,18 @@ int main(){
         //scanf("%d %s", &age, &name);
         tmp.num = i;
         //cin >> tmp.age >> tmp.name;
-        scanf("%d %s", &tmp.age, &tmp_name);
+        cin >> tmp.age;
+        cin >> tmp_name;
+        //scanf("%d %s", &tmp.age, tmp_name);
         tmp.name = tmp_name;
+        //printf("%s\n", tmp_name);
         v.push_back(tmp);
     }
-    printf("\n");
+    //printf("\n");
+    sort(v.begin(), v.end(), compare);
     for(int i=0;i<N;i++){
-        printf("%d %s\n", v[i].age, v[i].name);
+        //printf("%d %s\n", v[i].age, v[i].name);
+        cout << v[i].age << " " << v[i].name << "\n";
     }
 
     return 0;
