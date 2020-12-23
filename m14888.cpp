@@ -7,6 +7,7 @@ int N;
 int A[4];
 int max, min;
 vector<int> v;
+vector<int> 
 
 void func(int k){
     if(k == N){
