@@ -43,8 +43,10 @@ void func(int k){
             check = 1;
         }
         ///
+        /*
         printf("            max = %d\n", max_num);
         printf("            min = %d\n", min_num);
+        */
         ///
         return;
         
@@ -52,6 +54,7 @@ void func(int k){
     for(int i=0;i<N-1;i++){
         if(!isused[i]){
             ///
+            /*
             printf("================ k = %d\n",k);
             printf("isused -> ");
             for(int a=0;a<isused.size();a++){
@@ -62,6 +65,7 @@ void func(int k){
                 printf("%d ",v[a]);
             }
             printf("\n");
+            */
             ///
             v.push_back(opt[i]);
             //v[k] = opt[i];
@@ -79,7 +83,7 @@ int main(){
     for(int i=0;i<N;i++){
         int tmp;
         cin >> tmp;
-        v.push_back(tmp);
+        num.push_back(tmp);
     }
     for(int i=0;i<4;i++){
         cin >> A[i];
@@ -90,6 +94,11 @@ int main(){
         	isused.push_back(zero);
         }
     }
+
+    ///
+    //printf("%")
+    ///
+
     func(0);
     /*
     cout << max << "\n";
