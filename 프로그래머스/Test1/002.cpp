@@ -11,7 +11,7 @@ int solution(vector<vector<int>> board, vector<int> moves) {
     for(int i=0;i<moves.size();i++){
         int m = moves[i];
         for(int j=0;j<N;j++){
-            if(board[j][m] != 0){
+            if(board[j][m-1] != 0){
                 int tmp = board[j][m-1];
                 board[j][m-1] = 0;
                 if(v.empty()){
@@ -20,6 +20,7 @@ int solution(vector<vector<int>> board, vector<int> moves) {
                     int num = v.size();
                     if(v[num-1] == tmp){
                         v.pop_back();
+                        answer++;
                         answer++;
                     }else{
                         v.push_back(tmp);
@@ -30,6 +31,7 @@ int solution(vector<vector<int>> board, vector<int> moves) {
 
         }
         /////////////////////////
+        /*
         printf("========================%d\n",i);
         for(int a=0;a<N;a++){
             for(int b=0;b<N;b++){
@@ -37,6 +39,12 @@ int solution(vector<vector<int>> board, vector<int> moves) {
             }
             printf("\n");
         }
+        printf("\n");
+        for(int a=0;a<v.size();a++){
+            printf("%d ",v[a]);
+        }
+        printf("\n\n");
+        */
         /////////////////////////
     }
     return answer;

@@ -41,15 +41,36 @@ arr2	[27 ,56, 19, 14, 14, 10]
 using namespace std;
 
 vector<int> func(int k){
+    vector<int> tmp;
     vector<int> binary_num;
+    while(k!=0){
+        int a,b;
+        a = k/2;
+        b = k%2;
+        k = a;
+        tmp.push_back(b);
+    }
+    while(!tmp.empty() && !){
+        binary_num.push_back(tmp.back());
+        tmp.pop_back();
+    }
     return binary_num;
 }
 
 vector<string> solution(int n, vector<int> arr1, vector<int> arr2) {
     vector<string> answer;
+    vector<vector<int>> arr_b1;
+    vector<vector<int>> arr_b2;
+    for(int i=0;i<n;i++){
+        arr_b1.push_back(func(arr1[i]));
+        arr_b2.push_back(func(arr2[i]));
+    }
+    for(int i=0;i<n;i++){
+
+    }
     return answer;
 }
-
+/*
 int main(){
     int n;
     vector<int> arr1;
@@ -66,5 +87,17 @@ int main(){
         arr2.push_back(tmp);
     }
     
+    return 0;
+}
+*/
+
+int main(){
+    vector<int> b;
+    int num;
+    cin >> num;
+    b = func(num);
+    for(int i=0;i<b.size();i++){
+        cout << b[i] << " ";
+    }
     return 0;
 }
