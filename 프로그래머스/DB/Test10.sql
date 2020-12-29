@@ -1,6 +1,8 @@
--- 코드를 입력하세요
-SELECT to_char(sysdate, 'HH') as "HOUR", COUNT(HOUR) as "COUNT"
-from animal_outs
+-- 입양 시각 구하기(1)
 
-select DATETIME 
+select hour(datetime) as "hour", count("hour") 
 from animal_outs
+where hour(datetime) > 8 and hour(datetime) < 20
+group by hour(datetime)
+order by hour
+
