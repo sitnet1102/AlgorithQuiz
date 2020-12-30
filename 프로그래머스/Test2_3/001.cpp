@@ -64,6 +64,7 @@ u의 앞뒤 문자를 제거하고, 나머지 문자의 괄호 방향을 뒤집�
 #include <string>
 #include <vector>
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 
@@ -92,12 +93,24 @@ bool func(string str){
     return false;
 }
 
+string change(string m){
+    string u = m.substr(1, m.size()-2);
+    for(int j=0;j<u.size();j++){
+        if(u[j] == '('){
+            u[j] = ')';
+        }else if(u[j] == ')'){
+            u[j] = '(';
+        }
+    }
+    return u;
+}
+
 string solution(string p) {
     string answer = "";
     int num = p.size();
     string u = "";
     string v = "";
-    cout << " =========================== start "<< p<<"\n";
+    //cout << " =========================== start "<< p<<"\n";
     //cout << num;
 
     /*
@@ -135,8 +148,8 @@ string solution(string p) {
         for(int i=index+1;i<num;i++){
             v.push_back(p[i]);
         }
-        cout << "u = " << u << "\n";
-        cout << "v = " << v << "\n";
+        //cout << "u = " << u << "\n";
+        //cout << "v = " << v << "\n";
     // 3 단계 
         if(func(u)){
         // 3-1 
@@ -157,6 +170,8 @@ string solution(string p) {
             answer.push_back(b);
             //cout << answer << "\n";
         // 4-4
+            u = change(u);
+            /*
             u.erase(u.begin());
             u.erase(u.end());
             for(int j=0;j<u.size();j++){
@@ -166,13 +181,14 @@ string solution(string p) {
                     u[j] = '(';
                 }
             }
+            */
             answer = answer + u;
             //cout << answer << "\n";
         }
 
     }
 
-    cout << "======================= end "<< answer<<"\n";
+    //cout << "======================= end "<< answer<<"\n";
         // 4-5
     return answer;
 }
@@ -181,9 +197,11 @@ int main(){
     string s;
     cin >> s;
 
-    //cout << solution(s) << "\n";
+    cout << solution(s) << "\n";
 
-    cout << func(s) << "\n";
+    //cout << func(s) << "\n";
+
+    //cout << change(s) << "\n";
 
 
     return 0;
