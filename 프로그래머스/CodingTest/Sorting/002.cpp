@@ -11,7 +11,7 @@ int n;
 void func(int k){
 
     if(k == n){
-        
+
     }
 
     for(int i=0;i<n)
@@ -19,5 +19,6 @@ void func(int k){
 
 string solution(vector<int> numbers) {
     string answer = "";
+    
     return answer;
 }
