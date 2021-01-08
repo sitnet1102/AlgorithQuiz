@@ -15,25 +15,45 @@ string solution(string number, int k) {
         for(int j=0;j<number.size()-1;j++){
             int a = 1;
             for(int x=0;x<v.size();x++){
+                if(v[x] == j){
+                    goto Loop;
+                }
                 if(v[x] == j+a){
                     a++;
                 }
             }
+            /*
+            cout << "v : ";
+            for(int y=0;y<v.size();y++){
+                cout << v[y] << " ";
+            }
+            cout << "\n";
+            */
             if(number[j] < number[j+a]){
                 v.push_back(j);
                 //cout << "number : " << number << "\n";
                 sort(v.begin(), v.end());
                 break;
             }
-            if(j == number.size()-2){
+            if(j == number.size()-v.size()-2){
                 //number = number.substr(0, number.size()-1);
                 v.push_back(j);
+                sort(v.begin(), v.end());
+                break;
             }
-            sort(v.begin(), v.end());
             //cout << "--------------\n";
             //cout << a << " " << b << "\n";
+            Loop :
+            ;
         }
     }
+    /*
+    for(int y=0;y<v.size();y++){
+        cout << v[y] << " ";
+    }
+    cout << "\n";
+    */
+
     for(int i=0;i<number.size();i++){
         bool c = true;
         for(int j=0;j<v.size();j++){
@@ -45,9 +65,20 @@ string solution(string number, int k) {
             answer = answer + number[i];
         }
     }
-
+ 
     //answer = number;
 
 
     return answer;
+}
+
+
+int main () {
+    string number;
+    int k;
+    cin >> number;
+    cin >> k;
+    cout << solution(number, k);
+
+    return 0;
 }
