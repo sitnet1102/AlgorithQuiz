@@ -20,7 +20,10 @@ int solution(int n, vector<vector<int>> costs) {
     }
 
     for(int i=0;i<costs.size();i++){
-        
+        v[costs[i][0]].push_back(costs[i][1]); 
+        v[costs[i][1]].push_back(costs[i][0]);
+        w[costs[i][0]][costs[i][1]] = costs[i][2];
+        w[costs[i][1]][costs[i][0]] = costs[i][2];
     }
     
     return answer;
