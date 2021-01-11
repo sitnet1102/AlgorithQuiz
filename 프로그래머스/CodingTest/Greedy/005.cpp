@@ -25,6 +25,26 @@ int solution(int n, vector<vector<int>> costs) {
         w[costs[i][0]][costs[i][1]] = costs[i][2];
         w[costs[i][1]][costs[i][0]] = costs[i][2];
     }
+    /*
+    cout << "v =====================\n";
+    for(int i=0;i<v.size();i++){
+        for(int j=0;j<v[i].size();j++){
+            cout << v[i][j] << " ";
+        }
+        cout << "\n";
+    }
+
+    cout << "w =========================\n";
+    for(int i=0;i<w.size();i++){
+        for(int j=0;j<w[i].size();j++){
+            cout << w[i][j] << " ";
+        }
+        cout << "\n";
+    }
+    */
+
+    
+
     
     return answer;
 }
