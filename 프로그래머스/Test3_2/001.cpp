@@ -22,25 +22,16 @@ Imgur
 #include <algorithm>
 
 using namespace std;
-long long int x;
-
-int func(int n, int k){
-    int num;
-    return num;
-}
-
 int solution(int n) {
+    int arr[60001] = {0, 1, 2, 0,};
     int answer = 0;
-    int k = n/2;
-    long long int ans;
-    // 짝수의 경우 
-    if(n%2 == 0){
-        ans = k * k + 1;
+    for(int i=3;i<=n;i++){
+        long long int tmp = arr[i-1] + arr[i-2];
+        if(tmp >=1000000007){
+            tmp = tmp % 1000000007;
+        }
+        arr[i] = tmp;
     }
-    // 홀수의 경우 
-    if(n%2 == 1){
-        ans = k * k + k + 1;
-    }
-    answer = ans % 1000000007;
+    answer = arr[n];
     return answer;
 }
