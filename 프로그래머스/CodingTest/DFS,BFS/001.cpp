@@ -16,7 +16,7 @@ void func(int k){
         for(int i=0;i<isused.size();i++){
             if(isused[i] == 1){
                 sum = sum + num[i];
-            }else if(isused[i] == 2){
+            }else if(isused[i] == 0){
                 sum = sum - num[i];
             }
         }
@@ -30,9 +30,6 @@ void func(int k){
         if(!isused[i]){
             isused[i] = 1;  // 더하기 
             func(k+1);
-            isused[i] = 2;  // 빼기 
-            func(k+1);
-            isused[i] = 0;
         }
     }
 
