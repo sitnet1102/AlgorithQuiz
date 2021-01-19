@@ -152,10 +152,84 @@ www.kakaocorp.com : 1 점
 
 #include <string>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
+struct page{
+  string name;
+  int basic_score;
+  float foriegn_link;
+  vector<string> out_link;
+};
+
 int solution(string word, vector<string> pages) {
     int answer = 0;
+    vector <struct page> link;
+    for(int i=0;i<pages.size();i++){
+      struct page tmp;
+
+      int head = pages[i].find("<head>");
+      int headend = pages[i].find("</head>");
+      string head_tmp = pages[i].substr(head ,headend - head);
+      int a = head_tmp.find("https://");
+      int b = head_tmp.find("\"/>");
+      int c = b-a;
+      
+      int body = pages[i].find("<body>");
+      int bodyend = pages[i].find("</body>");
+      int top = 0;
+      int back = 0;
+      string body_tmp = pages[i].substr(body + 6,bodyend - body-6);
+      vector<string> out;   // 외부 링크 이름 
+      vector<string> word_v;
+      tmp.name = head_tmp.substr(a+8, c-8);
+      tmp.basic_score = 0;
+      tmp.foriegn_link = 0;
+
+      while(body_tmp.find("<a href") != -1){
+        int href_start = body_tmp.find("<a href");
+        int href = body_tmp.find("\">");
+        int href_end = body_tmp.find("</a>");
+        string link_name = body_tmp.substr(href_start+17,href - href_start-17);
+        out.push_back(link_name);
+        body_tmp = body_tmp.substr(0, href_start) + body_tmp.substr(href_end + 4);
+      }
+      for(int j=0;j<body_tmp.size();j++){
+        if(body_tmp[j] < 91 && body_tmp[j] > 64){
+          body_tmp[j] = body_tmp[j] + 32;
+        }
+        if(body_tmp[j] < 97 || body_tmp[j] > 122){
+          back = j;
+          word_v.push_back(body_tmp.substr(top, back - top));
+          top = back+1;
+        }
+      }
+      // 기본점수 
+      // word 와 같은 것이 있는 지 확인해서 점수 계산 
+      for(int j=0;j<word_v.size();j++){
+        if(word_v[j] == word){
+          tmp.basic_score ++;
+        }
+      }
+      tmp.out_link = out;
+      link.push_back(tmp);
+    }
+    for(int i=0;i<link.size();i++){
+      // 외부 링크 수
+
+      // 링크 점수 
+      for(int j=0;j<link[i].out_link.size();j++){
+        
+      }
+      // 매칭 점수 
+      cout << "==================\n";
+      cout << link[i].name << "\n";
+      cout << link[i].basic_score << "\n";
+      for(int j=0;j<link[i].out_link.size();j++){
+        cout << link[i].out_link[j] << " ";
+      }
+      cout <<"\n";
+    }
     return answer;
 }
