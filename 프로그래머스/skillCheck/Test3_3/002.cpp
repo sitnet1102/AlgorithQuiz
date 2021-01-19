@@ -220,12 +220,18 @@ int solution(string word, vector<string> pages) {
 
       // 링크 점수 
       for(int j=0;j<link[i].out_link.size();j++){
-        
+        for(int k=0;k<link.size();k++){
+          if(link[i].out_link[j] == link[k].name){
+            float tmp_f = link[i].basic_score / link[i].out_link.size();
+            link[k].foriegn_link = link[k].foriegn_link + tmp_f;
+          }
+        }
       }
       // 매칭 점수 
       cout << "==================\n";
       cout << link[i].name << "\n";
       cout << link[i].basic_score << "\n";
+      cout << link[i].foriegn_link << "\n";
       for(int j=0;j<link[i].out_link.size();j++){
         cout << link[i].out_link[j] << " ";
       }
