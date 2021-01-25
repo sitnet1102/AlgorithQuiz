@@ -7,10 +7,10 @@ using namespace std;
 
 long long solution(int w,int h) {
     long long answer = 1;
-    int a, b;
-    int num = 0;
-    int box = 0;
-    int m = 1;
+    long a, b;
+    long num = 0;
+    long box = 0;
+    long m = 1;
     a = w;
     b = h;
     while(true){
@@ -33,7 +33,7 @@ long long solution(int w,int h) {
         m = m * 2;
     }
 
-    answer = w * h - m * box;
+    answer = (long long)w * h - m * box;
 
     cout << a << " " << b << " " << num << "\n";
     return answer;
