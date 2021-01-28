@@ -71,7 +71,7 @@ vector<int> solution(int m, int n, vector<vector<int>> picture) {
     }
     p.push_back(a);
     ////
-    p1 = p;
+    //p1 = p;
     ///
     isused.push_back(b);
     for(int i=0;i<m;i++){
