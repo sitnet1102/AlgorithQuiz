@@ -139,3 +139,14 @@
 | 1 | [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | 3 |  |
 | 2 | [순위](https://programmers.co.kr/learn/courses/30/lessons/49191) | 3 |  |
 | 3 | [방의 개수](https://programmers.co.kr/learn/courses/30/lessons/49190) | 5 |  |
+
+
+### 위클리 챌린지(Weekly Challenge)
+| | **Title** | **Classification** | **Solution** |
+|:--------:|:--------:|:--------:|:--------:|
+| 1 | [1주차_부족한 금액 계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612) | for | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/001.cpp) |
+| 2 | [2주차_상호평가](https://programmers.co.kr/learn/courses/30/lessons/83201) | Array | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/002.cpp) |
+| 3 | [3주차_퍼즐 조각 채우기](https://programmers.co.kr/learn/courses/30/lessons/84021) | BFS | [C++]() |
+| 4 | [4주차_직업군 추천하기](https://programmers.co.kr/learn/courses/30/lessons/84325) | Array, Hash | [Javascript](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/004.js) |
+| 5 | [5주차_모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | String, Sorting | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/005.cpp) |
+| 6 | [6주차](https://programmers.co.kr/learn/courses/30/lessons/85002) | Array, Sorting | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/006.cpp) |
