@@ -1,6 +1,6 @@
 # AlgorithmQuiz
 
-## [백준](https://www.acmicpc.net/)
+## 백준 - [링크](https://www.acmicpc.net/)
 
 
 | | **Title** | **Classification** | **Solution** |
@@ -54,20 +54,88 @@
 | 47 | [1655 가운데를 말해요](https://www.acmicpc.net/problem/1655) | 우선순위 큐 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%EB%B0%B1%EC%A4%80/1655_1.cpp) |
 | 48 | [2606 바이러스](https://www.acmicpc.net/problem/2606) | DFS와 BFS | [C](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%EB%B0%B1%EC%A4%80/2606.c) |
 
-## [프로그래머스](https://programmers.co.kr/)
+## 프로그래머스 - [링크](https://programmers.co.kr/)
 
+### 코딩테스트 고득점 Kit - [링크](https://programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
 
-| | **Title** | **Classification** | **Solution** |
+#### 해시(Hash)
+| | **Title** | **Level** | **Solution** |
 |:--------:|:--------:|:--------:|:--------:|
-| 1 | []() | | [C++]() |
-| 2 | []() | | [C++]() |
-| 3 | []() | | [C++]() |
-| 4 | []() | | [C++]() |
-| 5 | []() | | [C++]() |
-| 6 | []() | | [C++]() |
-| 7 | []() | | [C++]() |
-| 8 | []() | | [C++]() |
-| 9 | []() | | [C++]() |
-| 10 | []() | | [C++]() |
-|  | []() | | [C++]() |
+| 1 | [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576) | 1 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Hash/001.cpp) |
+| 2 | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | 2 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Hash/002.cpp) |
+| 3 | [위장](https://programmers.co.kr/learn/courses/30/lessons/42577) | 2 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Hash/003.cpp) |
+| 4 | [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | 3 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Hash/004.cpp) |
 
+#### 스택/큐(Stack/Queue)
+| | **Title** | **Level** | **Solution** |
+|:--------:|:--------:|:--------:|:--------:|
+| 1 | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | 2 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Stack_Queue/001.cpp) |
+| 2 | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | 2 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Stack_Queue/002.cpp) |
+| 3 | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) | 2 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Stack_Queue/003.cpp) |
+| 4 | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | 2 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Stack_Queue/004.cpp) |
+
+#### 힙(Heap)
+| | **Title** | **Level** | **Solution** |
+|:--------:|:--------:|:--------:|:--------:|
+| 1 | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | 2 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Heap/001_1.cpp) |
+| 2 | [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) | 3 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Heap/002.cpp) |
+| 3 | [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) | 3 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Heap/003.cpp) |
+
+
+#### 정렬(Sorting)
+| | **Title** | **Level** | **Solution** |
+|:--------:|:--------:|:--------:|:--------:|
+| 1 | [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748) | 1 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Sorting/001.cpp) |
+| 2 | [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | 2 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Sorting/002_1.cpp) |
+| 3 | [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) | 2 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Sorting/003.cpp) |
+
+#### 완전탐색(Brute Force)
+| | **Title** | **Level** | **Solution** |
+|:--------:|:--------:|:--------:|:--------:|
+| 1 | [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840) | 1 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/BruteForce/001.cpp) |
+| 2 | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | 2 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/BruteForce/002.cpp) |
+| 3 | [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) | 2 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/BruteForce/003.cpp) |
+
+
+#### 탐욕법(Greedy)
+| | **Title** | **Level** | **Solution** |
+|:--------:|:--------:|:--------:|:--------:|
+| 1 | [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862) | 1 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Greedy/001.cpp) |
+| 2 | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | 2 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Greedy/002.cpp) |
+| 3 | [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) | 2 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Greedy/003_2.cpp) |
+| 4 | [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) | 2 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Greedy/004_1.cpp) |
+| 5 | [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861) | 3 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Greedy/005_1.cpp) |
+| 6 | [단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884) | 3 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/Greedy/006.cpp) |
+
+
+#### 동적계획법(Dynamic Programming)
+| | **Title** | **Level** | **Solution** |
+|:--------:|:--------:|:--------:|:--------:|
+| 1 | [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895) | 3 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/DynamicProgramming/001.cpp) |
+| 2 | [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105) | 3 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/DynamicProgramming/002.cpp) |
+| 3 | [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898) | 3 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/DynamicProgramming/003.cpp) |
+| 4 | [도둑질](https://programmers.co.kr/learn/courses/30/lessons/42897) | 4 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/DynamicProgramming/004_1.cpp) |
+
+
+#### 깊이/너비 우선 탐색(DFS/BFS)
+| | **Title** | **Level** | **Solution** |
+|:--------:|:--------:|:--------:|:--------:|
+| 1 | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | 2 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/DFS%2CBFS/001_1.cpp) |
+| 2 | [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | 3 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/DFS%2CBFS/002.cpp) |
+| 3 | [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) | 3 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/DFS%2CBFS/003.cpp) |
+| 4 | [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) | 3 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/DFS%2CBFS/004.cpp) |
+
+
+#### 이분탐색(Binary Search)
+| | **Title** | **Level** | **Solution** |
+|:--------:|:--------:|:--------:|:--------:|
+| 1 | [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238) | 3 | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/CodingTest/BinarySearch/001.cpp) |
+| 2 | [징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236) | 4 |  |
+
+
+#### 그래프(Graph)
+| | **Title** | **Level** | **Solution** |
+|:--------:|:--------:|:--------:|:--------:|
+| 1 | [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | 3 |  |
+| 2 | [순위](https://programmers.co.kr/learn/courses/30/lessons/49191) | 3 |  |
+| 3 | [방의 개수](https://programmers.co.kr/learn/courses/30/lessons/49190) | 5 |  |
