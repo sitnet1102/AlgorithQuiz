@@ -150,3 +150,36 @@
 | 4 | [4주차_직업군 추천하기](https://programmers.co.kr/learn/courses/30/lessons/84325) | Array, Hash | [Javascript](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/004.js) |
 | 5 | [5주차_모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | String, Sorting | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/005.cpp) |
 | 6 | [6주차](https://programmers.co.kr/learn/courses/30/lessons/85002) | Array, Sorting | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/006.cpp) |
+| 7 | [7주차]() |  | [C++]() |
+
+
+### SQL 고득점 Kit
+| | **Title** | **Classification** | **Solution** |
+|:--------:|:--------:|:--------:|:--------:|
+| 1 | [모든 레코드 조회하기](https://programmers.co.kr/learn/courses/30/lessons/59034?language=oracle) | SELECT | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Select/001.sql) |
+| 2 | [역순 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/59035) | SELECT | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Select/002.sql) |
+| 3 | [아픈 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59036) | SELECT | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Select/003.sql) |
+| 4 | [어린 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59037) | SELECT | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Select/004.sql) |
+| 5 | [동물의 아이디와 이름](https://programmers.co.kr/learn/courses/30/lessons/59403) | SELECT | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Select/005.sql) |
+| 6 | [여러 기준으로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/59404) | SELECT | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Select/006.sql) |
+| 7 | [상위 n개 레코드](https://programmers.co.kr/learn/courses/30/lessons/59405) | SELECT | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Select/007.sql) |
+| 8 | [최댓값 구하기](https://programmers.co.kr/learn/courses/30/lessons/59415) | SUM, MAX, MIN | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Sum%2CMax%2CMin/001.sql) |
+| 9 | [최솟값 구하기](https://programmers.co.kr/learn/courses/30/lessons/59038) | SUM, MAX, MIN | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Sum%2CMax%2CMin/002.sql) |
+| 10 | [동물 수 구하기](https://programmers.co.kr/learn/courses/30/lessons/59406) | SUM, MAX, MIN | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Sum%2CMax%2CMin/003.sql) |
+| 11 | [중복 제거하기](https://programmers.co.kr/learn/courses/30/lessons/59408) | SUM, MAX, MIN | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Sum%2CMax%2CMin/004.sql) |
+| 12 | [고양이와 개는 몇 마리 있을까](https://programmers.co.kr/learn/courses/30/lessons/59040) | GROUP BY | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Group_by/001.sql) |
+| 13 | [동명 동물 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/59041) | GROUP BY | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Group_by/002.sql) |
+| 14 | [입양 시각 구하기(1)](https://programmers.co.kr/learn/courses/30/lessons/59412) | GROUP BY | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Group_by/003.sql) |
+| 15 | [입양 시각 구하기(2)](https://programmers.co.kr/learn/courses/30/lessons/59413) | GROUP BY | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Group_by/004.sql) |
+| 16 | [이름이 없는 동물의 아이디](https://programmers.co.kr/learn/courses/30/lessons/59039) | IS NULL | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Is%20Null/001.sql) |
+| 17 | [이름이 있는 동물의 아이디](https://programmers.co.kr/learn/courses/30/lessons/59407) | IS NULL | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Is%20Null/002.sql) |
+| 18 | [NULL 처리하기](https://programmers.co.kr/learn/courses/30/lessons/59410) | IS NULL | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Is%20Null/003.sql) |
+| 19 | [없어진 기록 찾기](https://programmers.co.kr/learn/courses/30/lessons/59042) | JOIN | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Join/001.sql) |
+| 20 | [있었는데요 없었습니다](https://programmers.co.kr/learn/courses/30/lessons/59043) | JOIN | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Join/002.sql) |
+| 21 | [오랜 기간 보호한 동물(1)](https://programmers.co.kr/learn/courses/30/lessons/59044) | JOIN | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Join/003.sql) |
+| 22 | [보호소에서 중성화한 동물](https://programmers.co.kr/learn/courses/30/lessons/59045) | JOIN | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/Join/004.sql) |
+| 23 | [루시와 엘라 찾기](https://programmers.co.kr/learn/courses/30/lessons/59046) | String, Date | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/String%2C%20Date/001.sql) |
+| 24 | [이름에 el이 들어가는 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59047) | String, Date | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/String%2C%20Date/002.sql) |
+| 25 | [중성화 여부 파악하기](https://programmers.co.kr/learn/courses/30/lessons/59409) | String, Date | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/String%2C%20Date/003.sql) |
+| 26 | [오랜 기간 보호한 동물(2)](https://programmers.co.kr/learn/courses/30/lessons/59411) | String, Date | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/String%2C%20Date/004.sql) |
+| 27 | [DATETIME에서 DATE로 형 변환](https://programmers.co.kr/learn/courses/30/lessons/59414) | String, Date | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/String%2C%20Date/005.sql) |
