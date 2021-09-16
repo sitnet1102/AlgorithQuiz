@@ -141,17 +141,6 @@
 | 3 | [방의 개수](https://programmers.co.kr/learn/courses/30/lessons/49190) | 5 |  |
 
 
-### 위클리 챌린지(Weekly Challenge)
-| | **Title** | **Classification** | **Solution** |
-|:--------:|:--------:|:--------:|:--------:|
-| 1 | [1주차_부족한 금액 계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612) | for | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/001.cpp) |
-| 2 | [2주차_상호평가](https://programmers.co.kr/learn/courses/30/lessons/83201) | Array | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/002.cpp) |
-| 3 | [3주차_퍼즐 조각 채우기](https://programmers.co.kr/learn/courses/30/lessons/84021) | BFS |  |
-| 4 | [4주차_직업군 추천하기](https://programmers.co.kr/learn/courses/30/lessons/84325) | Array, Hash | [Javascript](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/004.js) |
-| 5 | [5주차_모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | String, Sorting | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/005.cpp) |
-| 6 | [6주차_복서 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/85002) | Array, Sorting | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/006.cpp) |
-| 7 | [7주차]() |  |  |
-
 
 ### SQL 고득점 Kit
 | | **Title** | **Classification** | **Solution** |
@@ -183,3 +172,16 @@
 | 25 | [중성화 여부 파악하기](https://programmers.co.kr/learn/courses/30/lessons/59409) | String, Date | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/String%2C%20Date/003.sql) |
 | 26 | [오랜 기간 보호한 동물(2)](https://programmers.co.kr/learn/courses/30/lessons/59411) | String, Date | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/String%2C%20Date/004.sql) |
 | 27 | [DATETIME에서 DATE로 형 변환](https://programmers.co.kr/learn/courses/30/lessons/59414) | String, Date | [MySQL](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/DB/String%2C%20Date/005.sql) |
+
+
+### 위클리 챌린지(Weekly Challenge)
+| | **Title** | **Classification** | **Solution** |
+|:--------:|:--------:|:--------:|:--------:|
+| 1 | [1주차_부족한 금액 계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612) | for | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/001.cpp) |
+| 2 | [2주차_상호평가](https://programmers.co.kr/learn/courses/30/lessons/83201) | Array | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/002.cpp) |
+| 3 | [3주차_퍼즐 조각 채우기](https://programmers.co.kr/learn/courses/30/lessons/84021) | BFS |  |
+| 4 | [4주차_직업군 추천하기](https://programmers.co.kr/learn/courses/30/lessons/84325) | Array, Hash | [Javascript](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/004.js) |
+| 5 | [5주차_모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | String, Sorting | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/005.cpp) |
+| 6 | [6주차_복서 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/85002) | Array, Sorting | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/006.cpp) |
+| 7 | [7주차](https://programmers.co.kr/learn/courses/30/lessons/86048) | Vector, For | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/007.cpp) |
+
