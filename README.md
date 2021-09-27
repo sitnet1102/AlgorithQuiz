@@ -184,4 +184,6 @@
 | 5 | [5주차_모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | String, Sorting | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/005.cpp) |
 | 6 | [6주차_복서 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/85002) | Array, Sorting | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/006.cpp) |
 | 7 | [7주차](https://programmers.co.kr/learn/courses/30/lessons/86048) | Vector, For | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/007.cpp) |
+| 8 | [8주차](https://programmers.co.kr/learn/courses/30/lessons/86491) | For | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/008.cpp) |
+
 
