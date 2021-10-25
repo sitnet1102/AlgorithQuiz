@@ -188,5 +188,6 @@
 | 9 | [9주차_전력망을 둘로 나누기](https://programmers.co.kr/learn/courses/30/lessons/86971) | DFS, Graph | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/009.cpp) |
 | 10 | [10주차 교점에 별 만들기](https://programmers.co.kr/learn/courses/30/lessons/87377) | Math | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/010_2.cpp) |
 | 11 | [11주차 아이템 줍기](https://programmers.co.kr/learn/courses/30/lessons/87694) | DFS | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/011_2.cpp) |
+| 12 | [12주차 피로도](https://programmers.co.kr/learn/courses/30/lessons/87946) | Back Tracking | [C++](https://github.com/sitnet1102/AlgorithmQuiz/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/weeklyChallenge/012.cpp) |
 
 
